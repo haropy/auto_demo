@@ -1,0 +1,10 @@
+测试固件（test fixture）
+setUp() tearDown()
+测试用例（test case）
+unittest中管理的最小单元是测试用例，一个测试用例，包括测试固件，和具体测试业务的函数或者方法。
+测试固件可以不写，但至少有一个以test开头的函数。
+测试套件（test suite）
+很多测试用例的集合。
+测试执行器（test runner）
+test runner是一个用来执行加载并执行且提供测试输出的一个组件。test runner可以加载test case或者test suite进行执行测试任务。
+
